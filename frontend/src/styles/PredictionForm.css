@@ -1,0 +1,104 @@
+.container {
+  position: relative;
+  min-height: 50vh;
+  overflow-y: auto;
+}
+
+.pdf-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.pdf-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.pdf-btn:active {
+  background-color: #388e3c;
+  transform: translateY(2px);
+}
+
+.min-h-screen {
+  min-height: 100vh;
+  height: auto;
+  overflow-y: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gap-8 {
+  gap: 1.5rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.max-w-5xl {
+  max-width: 80rem;
+  width: 100%;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.bg-white {
+  background-color: white;
+  opacity: 0.9;
+}
+
+.text-indigo-700 {
+  color: #4f46e5;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.space-y-6 > :not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.text-blue-500 {
+  color: #3b82f6;
+}
+
+.text-gray-800 {
+  color: #1f2937;
+}
+
+.text-gray-500 {
+  color: #6b7280;
+}
+
+.text-red-500 {
+  color: #ef4444;
+}
+
+.shadow-xl {
+box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.2), 0 5px 15px -5px rgba(0, 0, 0, 0.1)}
